@@ -23,7 +23,7 @@ R과 Python이 그것이다.
 *파이썬의 느낌을 강조하려 '주<파이>터'로 읽는 경우가 있다고 한다*
 
 <br>
-<center><img src="/assets/images/200225/000.PNG" width="500" ></center>
+<center><img src="/assets/images/200225/000.png" width="500" ></center>
 <center><font size="3em">Jupyter의 Logo</font></center>
 <br>
 
@@ -39,7 +39,7 @@ R과 Python이 그것이다.
 
 
 <br>
-<center><img src="/assets/images/200225/001.PNG" width="500" ></center>
+<center><img src="/assets/images/200225/001.png" width="500" ></center>
 <center><font size="3em">Jupyter Notebook Preview</font></center>
 <br>
 
@@ -48,7 +48,7 @@ R과 Python이 그것이다.
 ------
 
 <br>
-<center><img src="/assets/images/200225/002.PNG" width="500" ></center>
+<center><img src="/assets/images/200225/002.png" width="500" ></center>
 <center><font size="3em">윈도우10 CMD - Jupyter Notebook 실행 시 Error 메시지</font></center>
 <br>
 
@@ -72,10 +72,9 @@ R과 Python이 그것이다.
 
 >
 > 해결 : cmd 창에서 아래 명령어들 입력하여 실행
->
 > > conda activate [실행하려는 콘다가상환경이름]
 > > start jupyter notebook
-> -정상동작-
+> --정상동작--
 >
 
 <br>
