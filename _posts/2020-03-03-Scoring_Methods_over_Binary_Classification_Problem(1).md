@@ -21,16 +21,13 @@ use_math: false # MathJax On
 
 이 둘을 구분짓는 것은 정답의 형태라고 할 수 있다.
 
-<br>
-
 분류 문제는 정답이 맞는지 아닌지 계산할 수 있도록 선택지가 주어지는 **이진분류**, 혹은 복수의 선택지에서 나타나는 정답이 주어지는 경우 **다중분류**에 해당된다.
 
 쉽게말해 누군가 인터넷에서 어느 특정 인물의 데이터를 가지고 이 사람의 성별이 남자냐 여자냐 예측 결과를 내놓는 문제가 있다고 생각해보자.
 
 거기에 성별은 남녀 밖에 없다고 가정할 때, 이것이 바로 분류 문제이며 정답이 *남*과 *여*로 나뉘는 이진분류 문제라고 할 수 있다.
 
-
-<br>
+-----
 
 반면 회귀 문제는 임의의 숫자로 그 결과값을 얻을 수 있다.
 
@@ -112,4 +109,5 @@ use_math: false # MathJax On
 -----
 
 > 참고.1) 알고리즘 중심의 머신러닝 가이드 (Machine Learning: An Algorithmic Perspective, Second Edition)
+>
 > 참고.2) [Basic of Evaluation - 머신러닝, 지표부터 차근차근](https://subinium.github.io/basic-of-Evaluation/)
