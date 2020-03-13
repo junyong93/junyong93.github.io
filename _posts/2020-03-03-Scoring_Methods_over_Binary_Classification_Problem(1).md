@@ -91,11 +91,11 @@ use_math: false # MathJax On
 
 다양한 경우의 수에 따른 정확도의 헛점을 보완하기 위해, 사람들은 오래전부터 경우의 수를 편리하게 확인할 수 있는 테이블을 고안해냈다.
 
-그것이 바로 **혼돈행렬(또는 오차행렬)**이다.
+그것이 바로 **혼동행렬(또는 오차행렬)**이다.
 
 <br>
-<center><img src="/assets/images/200303/001.png" width="500" ></center>
-<center><font size="3em">그림2. 혼돈행렬(오차행렬, Confusion Matrix) </font></center>
+<center><img src="/assets/images/200303/혼동행렬.jpg" width="500" ></center>
+<center><font size="3em">그림2. 혼동행렬(오차행렬, Confusion Matrix) </font></center>
 <br>
 
 그림을 통해 알 수 있듯이, 이 행렬을 통해 이진분류 문제에 대한 정답인 경우의 수를 확실하게 캐치해낼 수 있다.
