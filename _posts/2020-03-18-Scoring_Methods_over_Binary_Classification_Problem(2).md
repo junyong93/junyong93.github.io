@@ -10,7 +10,7 @@ use_math: true # MathJax On
 
 지난 시간엔 정답의 형태에 따른 예측 문제의 구분을 알아보았다. 
 
-<font size="3em">[지난 게시물-Scoring Methods over Binary Classification Problem(1)](https://ehyun0128.github.io/ml/Scoring_Methods_over_Binary_Classification_Problem(1)/)</font>
+([지난 게시물-Scoring Methods over Binary Classification Problem(1)](https://ehyun0128.github.io/ml/Scoring_Methods_over_Binary_Classification_Problem(1)/))
 
 그리고 이진분류 예측문제에서 학습된 머신러닝 모델이 얼마나 예측값을 잘 나타내고 있는지 판별할 수 있는 점수에 대해서도 알아 볼 수 있었다.
 
