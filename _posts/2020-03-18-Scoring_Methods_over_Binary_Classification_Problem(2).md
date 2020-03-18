@@ -24,7 +24,7 @@ $$
 
 
 <br>
-<center><img src="/assets/images/200318/000.PNG" width="500" ></center>
+<center><img src="/assets/images/200318/000.jpg" width="500" ></center>
 <center><font size="3em">혼동행렬로 표현한 정확도(Accuracy)</font></center>
 <br>
 
@@ -54,7 +54,7 @@ $$
 
 
 <br>
-<center><img src="/assets/images/200318/001.PNG" width="500" ></center>
+<center><img src="/assets/images/200318/001.jpg" width="500" ></center>
 <center><font size="3em">혼동행렬로 표현한 정밀도(Precision)</font></center>
 <br>
 
@@ -70,7 +70,7 @@ $$
 
 
 <br>
-<center><img src="/assets/images/200318/002.PNG" width="500" ></center>
+<center><img src="/assets/images/200318/002.jpg" width="500" ></center>
 <center><font size="3em">혼동행렬로 표현한 재현율(Recall) 또는 민감도(Sensitivity)</font></center>
 <br>
 
@@ -86,7 +86,7 @@ $$
 
 
 <br>
-<center><img src="/assets/images/200318/003.PNG" width="500" ></center>
+<center><img src="/assets/images/200318/003.jpg" width="500" ></center>
 <center><font size="3em">혼동행렬로 표현한 특이도</font></center>
 <br>
 
