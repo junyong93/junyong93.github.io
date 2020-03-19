@@ -1,5 +1,5 @@
 ---
-title: "Scoring Methods over Binary Classification Problem(1)"
+title: "Binary Classification Scoring Methods(1)"
 categories: 
   - ML
 last_modified_at: 2020-03-03 12:00:00
