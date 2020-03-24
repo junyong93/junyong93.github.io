@@ -51,6 +51,7 @@ use_math: true # MathJax On
 ~~의외로 정직한 제목~~
 
 [참고 - Wiki: Confusion_matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
+
 -----
 
 
@@ -81,6 +82,7 @@ Recall은 *실제 관련된 정보(Positive)* 중에 내가 수집한 *진짜로
 <br>
 
 [참고 - Wiki: Precision_and_recall](https://en.wikipedia.org/wiki/Precision_and_recall)
+
 -----
 
 
@@ -107,6 +109,7 @@ Specificity는 *실제 건강한사람들(Negative)* 중에 감염테스트기�
 <br>
 
 [참고 - Wiki: Sensitivity_and_specificity](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)
+
 -----
 
 이상 오늘은 이름만 들어서는 쉽게 무슨 지표일지 떠올리기 어려운 이진분류 문제의 평가지표들의 유래(어원)에 대해 알아보았다.
