@@ -92,7 +92,7 @@ pandas_file.to_sql('TABLE_NAME', engine ) # OK
 ```
 참고로 코드 중간에 들어가는 DSN과 TSN에 대한 간략한 설명은 다음과 같다.
 >
-> 파이썬 등 외부에서 DB 호출 시, DSN(Data Source Name, 데이터 원천 이름) 과 TNS(Transparent Network Substrate, Oracle에서 개발한 Network 기술~다른 DB와 연결하기 위한 ORACLE서버 정보를 가리킴)지정해주어야 한다. 
+> 파이썬 등 외부에서 DB 호출 시, DSN(Data Source Name, 데이터 원천 이름) 과 TNS(Transparent Network Substrate, Oracle에서 개발한 Network 기술~다른 DB와 연결하기 위한 ORACLE서버 정보를 가리킴)을 지정해주어야 한다. 
 
 ## 또 다른 해결방안?
 
