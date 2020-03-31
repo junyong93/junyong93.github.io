@@ -40,7 +40,8 @@ Python은 여타 프로그래밍 언어와 같이 왠만한 데이터를 읽어�
 
 - DB -> SQL -> Python (pandas DataFrame) 방향으로 데이터 전달 OK
 - Python(pandas DataFrame) -> DB (table) 방향으로 데이터 전달 Error
-``` {python}
+
+``` {PYTHON}
 # 라이브러리 로딩
 import cx_Oracle
 import pandas as pd
@@ -58,6 +59,7 @@ pandas_file.to_sql('TABLE_NAME', conn) #error
 
 ## DatabaseError: Execution failed on sql 'SELECT name FROM sqlite_master WHERE type='table' AND name=?;': ORA-01036: 잘못된 변수명/번호
 ```
+
 이것은 Pandas.DataFrame의 [to_sql 메소드](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html)에서 Oracle 커서를 바로 지원하지 않는 문제에서 기인한 것으로 여겨진다.
 
 Pandas Document를 확인해보면, to_sql 메소드의 **con** 패러미터가 **sqlalchemy.engine.Engine** 또는 **sqlite3.Connection**만 지원하는 것을 알 수있다.
@@ -90,6 +92,7 @@ pandas_file = pd.read_sql_query("SQL_QUERY", engine )
 # 작업결과(pandas_file)을 DB 테이블(TABLE_NAME)으로 반환
 pandas_file.to_sql('TABLE_NAME', engine ) # OK
 ```
+
 참고로 코드 중간에 들어가는 DSN과 TSN에 대한 간략한 설명은 다음과 같다.
 >
 > 파이썬 등 외부에서 DB 호출 시, DSN(Data Source Name, 데이터 원천 이름) 과 TNS(Transparent Network Substrate, Oracle에서 개발한 Network 기술~다른 DB와 연결하기 위한 ORACLE서버 정보를 가리킴)을 지정해주어야 한다. 
