@@ -29,18 +29,18 @@ use_math: true # MathJax On
 
 진행도중 재부팅할 사항이 있으니, 다운로드 받으면서 중요한 작업들은 미리 저장해 놓도록 하자.
 
-1. Windows 10 의 경우 Docker Desktop을 다운로드 받는다. 
+#### 1. Windows 10 의 경우 Docker Desktop을 다운로드 받는다. 
 
-2. `제어판 > 프로그램 > 프로그램 및 기능 > Windows 기능 켜기/끄기` 에서 "Hyper-V" 하위항목을 전부 체크 후 확인한다.(재부팅 필요)
+#### 2. `제어판 > 프로그램 > 프로그램 및 기능 > Windows 기능 켜기/끄기` 에서 "Hyper-V" 하위항목을 전부 체크 후 확인한다.(재부팅 필요)
 
 <br>
 <center><img src="/assets/images/200409/000.png" width="500" ></center>
 <br>
 
 
-3. 다운로드된 Docker Desktop 파일을 설치한다.
+#### 3. 다운로드된 Docker Desktop 파일을 설치한다.
 
-4. 설치 완료되면 CMD 창을 열고 `docker --version`을 입력하여 설치완료여부를 확인한다.
+#### 4. 설치 완료되면 CMD 창을 열고 `docker --version`을 입력하여 설치완료여부를 확인한다.
 
 <br>
 <center><img src="/assets/images/200409/001.png" width="500" ></center>
@@ -49,7 +49,7 @@ use_math: true # MathJax On
 
 ## Docker를 이용해 Kaggle Python 이미지를 로딩
 
-1. CMD 창에서 `docker pull gcr.io/kaggle-images/python`을 입력한다. 
+#### 1. CMD 창에서 `docker pull gcr.io/kaggle-images/python`을 입력한다. 
 
 이는 [Kaggle에서 이미 docker 허브에 올려놓은 이미지](https://console.cloud.google.com/gcr/images/kaggle-images/GLOBAL/python)를 pull 명령어로 다운받는 명령어이다.
 
@@ -59,7 +59,7 @@ use_math: true # MathJax On
 
 이미지가 다운로드 되었다면, 이제 docker에서 해당 파이썬을 띄울 준비가 다 된것이다.
 
-1-1. 다음 명령어를 입력하기 전, 컨테이너와 공유할 다른 하드디스크 볼륨에 있는 디렉토리를 사용하고자 하는 경우에 다음 절차를 통해 디렉토리를 도커에서 엑세스 허용하게 해야한다.
+#### 1-1. 다음 명령어를 입력하기 전, 컨테이너와 공유할 다른 하드디스크 볼륨에 있는 디렉토리를 사용하고자 하는 경우에 다음 절차를 통해 디렉토리를 도커에서 엑세스 허용하게 해야한다.
 
 <br>
 <center><img src="/assets/images/200409/002.png" width="500" ></center>
@@ -72,13 +72,13 @@ use_math: true # MathJax On
 <center><font size="3em">Resources > FILE SHARING > 엑세스할 하드디스크 볼륨 체크 > Apply & Restart 클릭</font></center>
 <br>
 
-2. CMD 창에서 아래 명령어를 입력하면, docker 위에서 해당 이미지를 띄움과 동시에 명령어로 입력한 Jupyter notebook을 실행하게된다.
+#### 2. CMD 창에서 아래 명령어를 입력하면, docker 위에서 해당 이미지를 띄움과 동시에 명령어로 입력한 Jupyter notebook을 실행하게된다.
 
 ```
 docker run -v D:/kaggle/tmp/working:/tmp/working -w=/tmp/working -p 8888:8888 --rm -it gcr.io/kaggle-images/python bash -c "pip install jupyter_contrib_nbextensions; pip install jupyter_nbextensions_configurator; jupyter contrib nbextension install --user; jupyter notebook --NotebookApp.token='' --notebook-dir=/tmp/working --ip='*' --port=8888 --no-browser --allow-root"
 ```
 
-*참고. docker에 익숙하지 않은 사람을 위해.* ([참고](http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter20/28))
+* *참고. docker에 익숙하지 않은 사람을 위해.* ([참고](http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter20/28))
 - `docker run` : 도커 컨테이너를 실행한다
 - `-v [호스트디렉토리]:[컨테이너디렉토리]` : 호스트 디렉토리의 Disk Volume을 컨테이너 디렉토리와 공유한다.
 - `-w=[컨테이너디렉토리]` : 도커 컨테이너 안에서 프로세스가 실행될 디렉토리.
@@ -92,20 +92,20 @@ docker run -v D:/kaggle/tmp/working:/tmp/working -w=/tmp/working -p 8888:8888 --
 
 Jupyter notebook이 컨테이너에 설치가 완료되면 서버를 띄웠다는 표시가 뜰것이다. 
 
-3. chrome 등 웹브라우저를 띄운 뒤, `http://localhost:8888` 로 접속해보자. 정상적으로 실행된다면 성공.
+#### 3. chrome 등 웹브라우저를 띄운 뒤, `http://localhost:8888` 로 접속해보자. 정상적으로 실행된다면 성공.
 
 
 ## Kaggle API 연결
 
 *아래 내용은 [다음 링크](https://shakeratos.tistory.com/34) 를 참조하였음
 
-1. kaggle api 토큰 생성
+#### 1. kaggle api 토큰 생성
 
 - 다음과 같은 링크 `https://www.kaggle.com/<username>/account` (<username>은 자기 아이디로 대체)에 접속
 - 페이지 중간에 'Create New API Token' 버튼을 클릭
 - 'kaggle.json' 파일을 다운로드 (컨테이너와 공유되는 호스트디렉토리에 옮겨준다.)
 
-2. 실행중인 컨테이너 쉘에 접속한다.
+#### 2. 실행중인 컨테이너 쉘에 접속한다.
 
 여러 방법이 있을 수 있지만, 다음 방법을 사용해볼 수 있다.
 
@@ -121,7 +121,7 @@ Jupyter notebook이 컨테이너에 설치가 완료되면 서버를 띄웠다�
 
 그러면 컨테이너에서 동작하는 bash 쉘을 제공받을 수 있다.
 
-3. 컨테이너 bash 쉘에 다음 명령어를 입력한다.
+#### 3. 컨테이너 bash 쉘에 다음 명령어를 입력한다.
 
 ```
 mkdir ~/.kaggle
@@ -131,11 +131,11 @@ chmod 600 ~/.kaggle/kaggle.json
 
 차례로 kaggle 접속 디렉토리를 만들고, kaggle.json 토큰을 디렉토리로 전송, 권한부여하는 과정이다.
 
-4. 마지막으로, `kaggle competitions download -c [COMPETETION NAME]` 명령어를 입력하여 데이터를 다운로드한다.
+#### 4. 마지막으로, `kaggle competitions download -c [COMPETETION NAME]` 명령어를 입력하여 데이터를 다운로드한다.
 
 - *COMPETITION NAME* 은 kaggle 홈페이지에서 참여중인 COMPETETION 페이지 > Data 탭 에서 다운로드 관련 API에서 확인 가능하다.
 
-5. COMPETETION용 데이터 zip 파일이 다운로드 된다. `unzip` 명령어를 사용해 압축해제 후 분석을 진행한다.
+#### 5. COMPETETION용 데이터 zip 파일이 다운로드 된다. `unzip` 명령어를 사용해 압축해제 후 분석을 진행한다.
 
 
 ## git 설치
