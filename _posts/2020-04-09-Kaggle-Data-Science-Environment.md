@@ -78,7 +78,7 @@ use_math: true # MathJax On
 docker run -v D:/kaggle/tmp/working:/tmp/working -w=/tmp/working -p 8888:8888 --rm -it gcr.io/kaggle-images/python bash -c "pip install jupyter_contrib_nbextensions; pip install jupyter_nbextensions_configurator; jupyter contrib nbextension install --user; jupyter notebook --NotebookApp.token='' --notebook-dir=/tmp/working --ip='*' --port=8888 --no-browser --allow-root"
 ```
 
-*참고. docker에 익숙하지 않은 사람을 위해. ([참고](http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter20/28))
+*참고. docker에 익숙하지 않은 사람을 위해.* ([참고](http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter20/28))
 - `docker run` : 도커 컨테이너를 실행한다
 - `-v [호스트디렉토리]:[컨테이너디렉토리]` : 호스트 디렉토리의 Disk Volume을 컨테이너 디렉토리와 공유한다.
 - `-w=[컨테이너디렉토리]` : 도커 컨테이너 안에서 프로세스가 실행될 디렉토리.
