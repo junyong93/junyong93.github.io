@@ -4,7 +4,7 @@ categories:
   - Kaggle
   - Miscellaneous
 last_modified_at: 2020-04-09 12:00:00
-toc: true #Table of Contents
+toc: false #Table of Contents
 comments: true
 use_math: true # MathJax On
 ---
