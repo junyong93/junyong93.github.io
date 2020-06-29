@@ -24,7 +24,7 @@ use_math: true # MathJax On
 
 	> 쉽게말해, 서비스를 작은 단위로(Micro) 쪼개서 개발을 하는 의미인듯
 
-- 참고 : https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4
+- 참고 : [위키:마이크로서비스](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4)
 
 
 ### cf) SOA* 서비스 지향 아키텍쳐 Service Oriented Architecture
