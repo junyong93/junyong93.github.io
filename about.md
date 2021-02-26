@@ -1,27 +1,21 @@
 ---
-layout: archive
+layout: single
 title: About
 title_align-center: true
 author_profile: true
-toc: true
-coment: true
+toc-top: true
 related: false
 date: "2020-10-04 18:47:00 +0900"
 last_modified_at: "2021-01-13 10:19:00 +0900"
 ---
-
-테스트2 건축공학과를 졸업하고 건설IT연구실에서 석사과정을 진행하고 있으며<br/>
+테스트3 건축공학과를 졸업하고 건설IT연구실에서 석사과정을 진행하고 있으며<br/>
 책임과 의무가 아닌 호기심을 동기로 Building Information Modeling(BIM) 뿐만 아니라 <br/>
 Computer Vision과 Natural Language Process, Data Science를 주제로 다룸.<br/>
-
-
 ## Blog History
-------
 
-<span style="font-size: 20px;font-weight: bold;">Since:</span><span> 2021-02-25</span>
+<span style="font-size: 20px;font-weight: bold;">Since:</span><span> 2020-10-04 18:47:00 +0900</span>
 
 ## Motivation
-------
 
 나는 기억력이 좋지 못하다. 그래서 기억력을 향상 시키기 위해 훈련해야겠지만 그전에 먼저 장단기적으로 기억 해야할 것들을 잊지 않기위해 어딘가에 잘 보관해 두는 것이 중요했다.
 
@@ -33,7 +27,7 @@ Computer Vision과 Natural Language Process, Data Science를 주제로 다룸.<b
 
 <span class="md-monologue">어릴때는 '암기하지 말고 이해하라. 그러면 잊지 않는다' 였었는데,
 나이 먹으니 이해한것도 까먹어서 다시 이해 해야하더라... 이해를 까먹으면 답이 없다.
-처음부터 다시 해야되고 이해에는 오랜 시간이 걸린다..
+처음부터 다시 해야되고 이해에는 오랜 시간이 걸린다..</span> <span style="font-size: 0.8em;">😢</span>
 
 이런 정보들이 노트에 어느정도 쌓이니까 그것들을 가지고 블로그를 만들어보는 것도 좋겠단 생각이 들었다.
 
@@ -46,13 +40,13 @@ Computer Vision과 Natural Language Process, Data Science를 주제로 다룸.<b
 또 블로그 페이지를 만드는 기술과 행위 자체에도 관심이 있다. 계속해서 더 편리한 UI를 가진 블로그로 거듭나면서 그 안에 다양한 이야기들을 담아 나가겠다.
 
 ## About Logo
-------
 
 노트를 작성하다보니 나는 점점 내가 기록한 노트를 내 뇌의 일부분 처럼 느끼게 되었다. 단지 몸 밖에 있고 유기체가 아닐뿐.
 
 그런 모습은 점점 기계 의존적으로 변해가는 현대인과 다를것이 없었다. 물론 싫지 않았다.<br/>
 우리는 미래에 결국 우리 손으로 만들어낸 '우리'와 융합될 것이 분명하다. 그것이 기계공학의 정수이든 생명공학의 정수이든 둘 다 이든 지금으로써는 그것을 반도체 칩으로 형상화하고 싶다.
 
+![My Blog Logo]({{ site.gdrive_url_prefix }}1atJ4jVQD4XZszLpU-MDRWgdofPN-nJsU){:class="align-left" style="width: 200px;"}
 
 |요소|의미|
 |:---:|:---:|
@@ -80,7 +74,7 @@ Elon Musk의 사상이 나와 통하는 점이 많은 것 같다.
 
 ## 가치관
 
-배움의 인생
+### 배움의 인생
 
 > 子曰, 三人行 必有我師焉 擇其善者而從之 其不善者而改之<br/>
 > 자왈, 삼인행 필유아사언 택기선자이종지 택불선자이개지
