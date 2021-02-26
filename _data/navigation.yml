@@ -1,4 +1,6 @@
 main:
+  - title: "About"
+    url: /about/#page-title
   - title: "Machine-Learning"
     url: /ML/
   - title: "Kaggle"
