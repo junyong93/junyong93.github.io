@@ -1,7 +1,7 @@
 ---
 layout: single
 title: About
-
+author_profile: true
 
 
 date: "2020-10-04 18:47:00 +0900"
