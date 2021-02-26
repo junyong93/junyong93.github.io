@@ -7,8 +7,8 @@ main:
     url: /Arithmetic/
   - title: "AI"
     url: /AI/
-  - title: "Miscellaneous"
-    url: /Miscellaneous/
+  - title: "Architecture"
+    url: /Architecture/
   - title: "All Posts"
     url: /categories/
     
