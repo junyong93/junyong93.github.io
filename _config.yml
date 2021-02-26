@@ -109,13 +109,13 @@ analytics:
 author:
   name             : "Jaejin Choi"
   avatar           : "/assets/images/default-thumb (1).png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master's course in Architectural Engineering, Yonsei University </br> choijj1993@gmail.com"
+  bio              : "Master's course in Architectural Engineering, Yonsei University"</br>"choijj1993@gmail.com"
   location         : #"Korea, Somewhere"
   email            : #"choijj1993@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:choijj1993@gmail.com
+      # url: mailto:choijj1993@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
