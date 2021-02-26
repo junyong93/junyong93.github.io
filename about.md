@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: archive
 title: About
 title_align-center: true
 author_profile: true
-#toc-top: true
+toc-top: true
 related: false
 date: "2020-10-04 18:47:00 +0900"
 last_modified_at: "2021-01-13 10:19:00 +0900"
