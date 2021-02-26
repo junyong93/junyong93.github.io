@@ -10,7 +10,7 @@ date: "2020-10-04 18:47:00 +0900"
 last_modified_at: "2021-01-13 10:19:00 +0900"
 ---
 
-건축공학과를 졸업하고 건설IT연구실에서 석사과정을 진행하고 있으며<br/>
+테스트 건축공학과를 졸업하고 건설IT연구실에서 석사과정을 진행하고 있으며<br/>
 책임과 의무가 아닌 호기심을 동기로 Building Information Modeling(BIM) 뿐만 아니라 <br/>
 Computer Vision과 Natural Language Process, Data Science를 주제로 다룸.<br/>
 
