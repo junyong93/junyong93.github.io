@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "EHyun Blog"
+title                    : "Jaejin93 Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "EHyun"
-description              : "블로그_개설(2019.12.30)"
+name                     : "Jaejin Choi"
+description              : "Architectural Engineering"
 url                      : "https://jaejin93.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "ehyun0128-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "jaejin93-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -107,15 +107,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "ehyun_kor"
+  name             : "Jaejin Choi"
   avatar           : "/assets/images/default-thumb (1).png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data_Science_연구중.."
-  location         : "Korea, Somewhere"
-  email            : #"ehyun0128@gmail.com"
+  bio              : "Master's course in Architectural Engineering, Yonsei University"
+  location         : #"Korea, Somewhere"
+  email            : "choijj1993@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:ehyun0128@gmail.com
+      url: mailto:choijj1993@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -210,7 +210,9 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Sass/SCSS
 sass:
