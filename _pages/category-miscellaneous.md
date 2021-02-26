@@ -1,6 +1,6 @@
 ---
-title: "Miscellaneous"
-layout: category-Miscellaneous
-permalink: /Miscellaneous/
+title: "Architecture"
+layout: category-Architecture
+permalink: /Architecture/
 author_profile: True
 ---
