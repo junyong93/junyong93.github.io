@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: home
 title: About
 title_align-center: true
 author_profile: true
