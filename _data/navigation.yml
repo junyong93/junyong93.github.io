@@ -3,8 +3,8 @@ main:
     url: /about/#page-title
   - title: "Algorithm"
     url: /Algorithm/
-  - title: "Machine-Learning"
-    url: /ML/
+  - title: "Arithmetic"
+    url: /Arithmetic/
   - title: "Kaggle"
     url: /Kaggle/
   - title: "Miscellaneous"
