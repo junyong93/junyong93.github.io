@@ -3,7 +3,7 @@ layout: archive
 title: About
 title_align-center: true
 author_profile: true
-toc-top: true
+toc: true
 related: false
 date: "2020-10-04 18:47:00 +0900"
 last_modified_at: "2021-01-13 10:19:00 +0900"
@@ -15,10 +15,12 @@ Computer Vision과 Natural Language Process, Data Science를 주제로 다룸.<b
 
 
 ## Blog History
+------
 
 <span style="font-size: 20px;font-weight: bold;">Since:</span><span> 2021-02-25</span>
 
 ## Motivation
+------
 
 나는 기억력이 좋지 못하다. 그래서 기억력을 향상 시키기 위해 훈련해야겠지만 그전에 먼저 장단기적으로 기억 해야할 것들을 잊지 않기위해 어딘가에 잘 보관해 두는 것이 중요했다.
 
@@ -43,6 +45,7 @@ Computer Vision과 Natural Language Process, Data Science를 주제로 다룸.<b
 또 블로그 페이지를 만드는 기술과 행위 자체에도 관심이 있다. 계속해서 더 편리한 UI를 가진 블로그로 거듭나면서 그 안에 다양한 이야기들을 담아 나가겠다.
 
 ## About Logo
+------
 
 노트를 작성하다보니 나는 점점 내가 기록한 노트를 내 뇌의 일부분 처럼 느끼게 되었다. 단지 몸 밖에 있고 유기체가 아닐뿐.
 
