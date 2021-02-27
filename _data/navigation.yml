@@ -1,6 +1,6 @@
 main:
   - title: "About"
-    url: /about/#page-title
+    url: /about/#page #-title
   - title: "Algorithm"
     url: /Algorithm/
   - title: "Arithmetic"
