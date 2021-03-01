@@ -1,5 +1,5 @@
 ---
-title: "1. Meta-Learning:Learning to Learn Fast"
+title: "Meta-Learning:Learning to Learn Fast"
 categories: 
   - AI
 last_modified_at: 2021-03-21
