@@ -1,5 +1,5 @@
 ---
-title: "1. Meta-Learning:Learning to Learn Fast(1)"
+title: "1. Meta-Learning:Learning to Learn Fast"
 categories: 
   - AI
 last_modified_at: 2021-03-21
@@ -7,8 +7,8 @@ toc: false #Table of Contents
 comments: true
 use_math: true # MathJax On
 ---
+
 ## 들어가며
------
 
 연구실에서 진행하는 건설 하자데이터 처리 과제에 참여하게 될 것 같고, Few-Shot Learning 부분을 담당하게 될 것 같다. 
 Few-Shot Learning은 적은 사진으로 학습하여 좋은 성능을 내는 이미지 처리 방식이다. 일반적인 CNN같은 이미지 처리 방식에서는
@@ -23,6 +23,7 @@ Few-Shot Learning은 적은 사진으로 학습하여 좋은 성능을 내는 �
 > 1. Metric 기반의 **Efficient Distance Metric**을 학습하는 방식
 > 2. Model 기반의 **External/Internal Memory를 통한 Recurrent Network을 사용**하는 방식
 > 3. Optimization 기반의 **Fast Learning을 위한 Model Parameter를 최적화** 하는 방식
+>
 >
 
 머신러닝을 통해서 좋은 모델을 만들기 위해서는 일반적으로 수많은 샘플을 활용하여 학습을 시키는 것이 필요하다. 이와 반대로 인간의 경우에는 훨씬 빠르고 효율적으로 새로운 개념이나 기술들을 학습한다. 고양이나 새를 많이 보지 않은 아이들이라고 할지라도 빠르게 그걸 구분할 수 있다. 자전거를 타는 방법을 아는 사람들은 시연 같은 과정 없이도 빠르게 오토바이를 타는 방법을 반견하곤 한다. 머신러닝에서도 이와 같이 적은 샘플만 가지고도 새로운 개념과 기술을 빠르게 학습하는 것이 가능할까? 이것이 바로 본질적으로 Meta-Learning이 풀고자 하는 문제점이다.
